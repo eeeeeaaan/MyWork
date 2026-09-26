@@ -10,11 +10,11 @@
 
   --text: #f2f2ee;
   --text-dim: #93938c;
-  --text-faint: #55554f;
+  --text-faint: #8a8a82;
 
   --accent: #d6ff3f;
 
-  --font-display: "Space Grotesk", "Pretendard", sans-serif;
+  --font-display: "Instrument Sans", "Pretendard", sans-serif;
   --font-serif: "Instrument Serif", "Pretendard", serif;
   --font-body: "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
 
@@ -57,7 +57,7 @@ img{ max-width: 100%; display: block; }
   inset: 0;
   z-index: 999;
   pointer-events: none;
-  opacity: 0.035;
+  opacity: 0.07;
   mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
@@ -462,7 +462,7 @@ img{ max-width: 100%; display: block; }
 }
 
 .t-body h3{ font-size: 1.05rem; font-weight: 600; margin-bottom: 0.35rem; }
-.t-body p{ margin-top: 0.2rem; }
+.t-body p{ margin-top: 0.2rem; max-width: 65ch; }
 .t-body p + p{ margin-top: 0.5rem; }
 
 @media (max-width: 640px){
